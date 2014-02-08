@@ -1,0 +1,21 @@
+<h1>Add a new vendor</h1>
+<%= form_for :vendor, url: vendors_path do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :phone %><br>
+    <%= f.telephone_field :phone %>
+  </p>
+
+  <p>
+    <%= f.label :text %><br>
+    <%= f.text_field :text %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
