@@ -4,7 +4,7 @@ OrganizedOrganics::Application.routes.draw do
 
   resources :vendors
 
-  root 'welcome#index'
+  root 'vendors#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
