@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: organized-organics_development
-  pool: 5
+  database: organized_organics_development
+  username: postgres
   password: 1234
