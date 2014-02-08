@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 # Zurb Foundation 5
+gem 'foundation'
 gem 'foundation-rails'
 
 # postgres
